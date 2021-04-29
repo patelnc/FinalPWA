@@ -1,0 +1,58 @@
+/* your css here */
+
+/* color scheme */
+:root {
+    --header-bg-color: #222;
+    --header-txt-color: #aaa;
+    --header-highlight-color: white;
+}
+
+.contact .navbar-inverse .navbar-nav > li > a[href="contact.html"], 
+.about .navbar-inverse .navbar-nav > li > a[href="about.html"],
+.index .navbar-inverse a.navbar-brand[href="."]
+{
+    color:var(--header-highlight-color);
+    background-color: inherit;
+}
+
+main {
+    min-height: calc(100vh - 8em);
+}
+footer {
+    height: 3em;
+    background-color: #000000;
+    color: white;
+}
+
+.navbar-inverse{
+    color:var(--header-txt-color);
+    background-color: var(--header-bg-color);
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    color: inherit;
+}
+
+h1{text-align: center; 
+    color: #f79308;font-family: 'Niconne', cursive;} 
+h2{text-align: center; 
+        color: #000000;font-family: 'Niconne', cursive;} 
+
+ img{ display: block;
+            margin-left: auto;
+            margin-right: auto;
+    }
+
+  p, ol{ display: block;
+            margin-left: 250px;
+            margin-right: 200px; 
+            color: #000000;font-family: 'Niconne', cursive;
+            font-size: 25px;
+    }
+
+  form {display: block;
+            margin-left: 550px;
+            margin-right: 200px; 
+            color: #f79308;font-family: 'Niconne', cursive;
+            font-size: 15px;}
+            button {color: #f79308;font-family: 'Niconne', cursive;}
